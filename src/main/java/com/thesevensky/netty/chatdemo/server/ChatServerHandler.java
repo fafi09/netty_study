@@ -53,6 +53,12 @@ public class ChatServerHandler extends SimpleChannelInboundHandler<String> {
         System.out.println(channel.remoteAddress() + " 下线");
     }
 
+    /**
+     * 如果出现异常关闭连接
+     * @param ctx
+     * @param cause
+     * @throws Exception
+     */
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
         cause.printStackTrace();

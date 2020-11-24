@@ -9,9 +9,15 @@ import io.netty.util.CharsetUtil;
 
 import java.net.URI;
 
+/**
+ * 执行两次原因chrome浏览器会额外发出/favorite.ico请求
+ *
+ */
 public class TestHttpServerHandler extends SimpleChannelInboundHandler<HttpObject> {
     /**
      * 读取客户端发过来请求, 返回响应
+     * io.netty.handler.codec.http.DefaultHttpRequest
+     * io.netty.handler.codec.http.LastHttpContent$1
      * @param ctx
      * @param msg
      * @throws Exception

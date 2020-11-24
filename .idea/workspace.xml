@@ -1,50 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest4.java" line="19" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="b7253e66-4db4-4516-ac92-85dc4f2209d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NioTest2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NioTest9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTestOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTestTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/NewIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/NewIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/OldIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/OldIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/netty_study.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/one7games/protobuf/DataInfo$Student$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/one7games/protobuf/DataInfo$Student$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/one7games/protobuf/DataInfo$Student$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/one7games/protobuf/DataInfo$Student$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/one7games/protobuf/DataInfo$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/one7games/protobuf/DataInfo$Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/client/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/client/ChatClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/client/ChatClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/client/ChatClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/server/ChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/server/ChatServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/server/ChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/server/ChatServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestHttpServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestHttpServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestServerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestServerInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/RPCClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServerHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServerHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTestOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTestOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTestTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTestTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Cat$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Cat$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Cat$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Cat$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Dog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Dog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Dog$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Dog$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$DataType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$DataType$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$DataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$DataType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Person$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Person$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Person$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Person$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/ProtoBufHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/ProtoBufHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/ProtoBufServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/ProtoBufServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/TestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/socketdemo/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/socketdemo/MyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/socketdemo/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/socketdemo/MyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$DataExceptionStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$DataExceptionStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$DataExceptionTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$DataExceptionTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$PersonStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$PersonStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$PersonTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$PersonTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$AsyncProcessor$getPersonByName$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$AsyncProcessor$getPersonByName$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$AsyncProcessor$savePerson$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$AsyncProcessor$savePerson$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$Processor$getPersonByName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$Processor$getPersonByName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$Processor$savePerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$Processor$savePerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_args$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_args$getPersonByName_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_args$getPersonByName_argsStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_args.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result$getPersonByName_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result$getPersonByName_resultStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result$getPersonByName_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result$getPersonByName_resultTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args$savePerson_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args$savePerson_argsStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args$savePerson_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args$savePerson_argsTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result$savePerson_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result$savePerson_resultStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result$savePerson_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result$savePerson_resultTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/mycode/ThriftClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/mycode/ThriftClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/websocketdemo/server/WebSocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/websocketdemo/server/WebSocketServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/zerocopy/NewIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/zerocopy/NewIOServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/zerocopy/OldIOClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/zerocopy/OldIOClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/zerocopy/OldIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/zerocopy/OldIOServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyResponse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyResponse$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyResponse$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamResponse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamResponse$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamResponse$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponse$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponse$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponseList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponseList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponseList$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponseList$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponseList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentServiceGrpc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentServiceGrpc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/client/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/client/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/client/ChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/client/ChatClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/server/ChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/server/ChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestHttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestHttpServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServerInitializer.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -73,7 +166,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="netty_study" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -81,112 +174,6 @@
         </projects_view>
       </state>
     </system>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/websocketdemo/server/WebSocketChannelInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/OldIOServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/OldIOClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="109" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/NewIOServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="29" column="37" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/NewIOClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/nio/ByteBuffer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1664">
-              <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/nio/MappedByteBuffer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/websocketdemo/server/WebSocketServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServerInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -204,63 +191,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/protobuf/Student" />
-        <option value="$PROJECT_DIR$/src/protobuf/Student.proto" />
-        <option value="$PROJECT_DIR$/src/main/java/com/one7games/protobuf/ProtoBufTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/protobuf/MyClientInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/protobuf/TestClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/protobuf/ProtoBufServer.java" />
-        <option value="$PROJECT_DIR$/src/protobuf/Person.proto" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/protobuf/ProtoBufHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/protobuf/MyClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/thrift/data.thrift" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/thrift/mycode/PersonServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/thrift/generated/DataException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/thrift/generated/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/thrift/generated/PersonService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/thrift/mycode/ThriftServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/thrift/mycode/ThriftClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/protobuf/ProtoBufInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/proto/MyRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/RPCServerInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/proto/StudentServiceGrpc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/RPCService.java" />
-        <option value="$PROJECT_DIR$/src/main/proto/Student.proto" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/proto/MyRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/proto/StudentServiceGrpc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/proto/StudentRequest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/RPCClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTestOne.java" />
-        <option value="$PROJECT_DIR$/NioTest2.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTestTwo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest3.java" />
-        <option value="$PROJECT_DIR$/input.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest7.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest4.java" />
-        <option value="$PROJECT_DIR$/input2.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest8.java" />
-        <option value="$PROJECT_DIR$/NioTest9.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest9.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest10.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest11.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest12.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/IOTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/OldServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/OldClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/NewIOServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/NewIOClient.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -270,121 +200,16 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1920" />
-    <option name="y" value="-33" />
-    <option name="width" value="1920" />
-    <option name="height" value="1113" />
-  </component>
+  <component name="ProjectId" id="1kalPE8oafLb3MoaDESZlra6s7P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="netty_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="extracted-protos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="thesevensky" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="thesevensky" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="thesevensky" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="zerocopy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/thesevensky/proto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -413,13 +238,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="NewIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.zerocopy.NewIOClient" />
+  <component name="RunManager" selected="Application.ChatClient">
+    <configuration name="ChatClient (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.chatdemo.client.ChatClient" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.zerocopy.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.chatdemo.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.chatdemo.client.ChatClient" />
+      <module name="netty_study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thesevensky.netty.chatdemo.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatServer" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.chatdemo.server.ChatServer" />
+      <module name="netty_study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thesevensky.netty.chatdemo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeartBeatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.heartbeatdemo.server.HeartBeatServer" />
+      <module name="netty_study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thesevensky.netty.heartbeatdemo.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -440,19 +304,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NioClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.nio.NioClient" />
-      <module name="netty_study.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OldIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.zerocopy.OldIOClient" />
       <module name="netty_study.main" />
@@ -466,12 +317,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OldIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.zerocopy.OldIOServer" />
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.firstdemo.TestServer" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.zerocopy.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.firstdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -480,19 +331,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NioClient" />
-      <item itemvalue="Application.OldIOServer" />
+      <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.OldIOClient" />
       <item itemvalue="Application.NewIOServer" />
-      <item itemvalue="Application.NewIOClient" />
+      <item itemvalue="Application.ChatClient" />
+      <item itemvalue="Application.ChatClient (1)" />
+      <item itemvalue="Application.TestServer" />
+      <item itemvalue="Application.HeartBeatServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatClient" />
+        <item itemvalue="Application.HeartBeatServer" />
+        <item itemvalue="Application.TestServer" />
         <item itemvalue="Application.OldIOClient" />
         <item itemvalue="Application.NewIOServer" />
-        <item itemvalue="Application.NewIOClient" />
-        <item itemvalue="Application.OldIOServer" />
-        <item itemvalue="Application.NioClient" />
       </list>
     </recent_temporary>
   </component>
@@ -514,11 +367,9 @@
       <workItem from="1567579510802" duration="14884000" />
       <workItem from="1567754578153" duration="15111000" />
       <workItem from="1567848862249" duration="31289000" />
+      <workItem from="1605946562500" duration="20871000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,434 +380,19 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1920" y="-33" width="1920" height="1113" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23901394" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989282" weight="0.32760364" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32931727" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4994641" weight="0.22690763" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29120323" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010718" side_tool="true" weight="0.40763053" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32962587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.329582" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/RPCServerInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/thesevensky/proto/StudentServiceGrpc.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/proto/MyResponseOrBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/Student.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/proto/MyRequest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/proto/StudentServiceGrpc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="36" column="60" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/RPCService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/proto/StudentRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6500">
-          <caret line="263" column="13" selection-start-line="263" selection-start-column="5" selection-end-line="263" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/RPCClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTestTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/nio/IntBuffer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#6216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/nio/Buffer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NioTest2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NioTest3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/nio/DirectByteBufferR.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/nio/DirectByteBuffer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15586">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NioTest9.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/nio/channels/SelectableChannel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTestOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioTest12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NioClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="91" column="70" selection-start-line="91" selection-start-column="70" selection-end-line="91" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/websocketdemo/server/TextWebSocketFrameHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/websocketdemo/server/WebSocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/IOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/websocketdemo/server/WebSocketChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/OldIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/nio/MappedByteBuffer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/nio/ByteBuffer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1664">
-          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/NewIOClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/NewIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/zerocopy/OldIOClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="109" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>

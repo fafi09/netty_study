@@ -5,6 +5,9 @@ import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.codec.http.HttpServerCodec;
 
+/**
+ * 客户端一旦和服务器端建立连接initChannel就会执行
+ */
 public class TestServerInitializer extends ChannelInitializer<SocketChannel> {
 
     /**
