@@ -2,127 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7253e66-4db4-4516-ac92-85dc4f2209d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tutorial/AddPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tutorial/AddressBookProtos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tutorial/ListPeople.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/addressbook.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/netty_study.main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/one7games/protobuf/DataInfo$Student$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/one7games/protobuf/DataInfo$Student$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/one7games/protobuf/DataInfo$Student$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/one7games/protobuf/DataInfo$Student$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/one7games/protobuf/DataInfo$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/one7games/protobuf/DataInfo$Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/client/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/client/ChatClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/client/ChatClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/client/ChatClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/server/ChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/server/ChatServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/server/ChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/chatdemo/server/ChatServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestHttpServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestHttpServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestServerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestServerInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServerHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServerHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTest8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTestOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTestOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTestTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NioTestTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Cat$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Cat$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Cat$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Cat$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Dog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Dog$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Dog$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Dog$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$DataType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$DataType$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$DataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage$DataType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$MyMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Person$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Person$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Person$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Person$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/MyDataInfo$Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/ProtoBufHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/ProtoBufHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/ProtoBufServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/ProtoBufServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/TestClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/socketdemo/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/socketdemo/MyClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/socketdemo/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/socketdemo/MyServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$DataExceptionStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$DataExceptionStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$DataExceptionTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$DataExceptionTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/DataException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$PersonStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$PersonStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$PersonTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$PersonTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$AsyncProcessor$getPersonByName$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$AsyncProcessor$getPersonByName$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$AsyncProcessor$savePerson$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$AsyncProcessor$savePerson$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$Processor$getPersonByName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$Processor$getPersonByName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$Processor$savePerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$Processor$savePerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_args$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_args$getPersonByName_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_args$getPersonByName_argsStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_args.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result$getPersonByName_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result$getPersonByName_resultStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result$getPersonByName_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result$getPersonByName_resultTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$getPersonByName_result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args$savePerson_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args$savePerson_argsStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args$savePerson_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args$savePerson_argsTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_args.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result$savePerson_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result$savePerson_resultStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result$savePerson_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result$savePerson_resultTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/generated/PersonService$savePerson_result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/mycode/ThriftClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/mycode/ThriftClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/websocketdemo/server/WebSocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/websocketdemo/server/WebSocketServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/zerocopy/NewIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/zerocopy/NewIOServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/zerocopy/OldIOClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/zerocopy/OldIOClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/zerocopy/OldIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/zerocopy/OldIOServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyRequest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyRequest$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyResponse$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyResponse$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyResponse$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/MyResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamRequest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamRequest$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamResponse$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamResponse$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamResponse$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StreamResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentRequest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentRequest$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponse$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponse$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponse$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponseList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponseList$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponseList$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponseList$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentResponseList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentServiceGrpc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/proto/StudentServiceGrpc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/client/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/client/ChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/client/ChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/client/ChatClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/server/ChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/server/ChatServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestHttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestHttpServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/annotations.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/annotations.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/auth.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/auth.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/backend.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/backend.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/billing.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/billing.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/config_change.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/config_change.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/consumer.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/consumer.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/context.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/context.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/control.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/control.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/distribution.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/distribution.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/documentation.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/documentation.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/endpoint.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/endpoint.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/experimental/authorization_config.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/experimental/authorization_config.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/experimental/experimental.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/experimental/experimental.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/http.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/http.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/httpbody.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/httpbody.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/label.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/label.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/log.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/log.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/logging.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/logging.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/metric.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/metric.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/monitored_resource.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/monitored_resource.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/monitoring.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/monitoring.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/quota.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/quota.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/service.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/service.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/source_info.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/source_info.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/system_parameter.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/system_parameter.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/usage.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/usage.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/cloud/audit/audit_log.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/cloud/audit/audit_log.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/logging/type/http_request.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/logging/type/http_request.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/logging/type/log_severity.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/logging/type/log_severity.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/longrunning/operations.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/longrunning/operations.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/any.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/any.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/api.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/api.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/compiler/plugin.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/compiler/plugin.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/descriptor.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/descriptor.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/duration.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/duration.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/empty.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/empty.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/field_mask.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/field_mask.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/source_context.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/source_context.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/struct.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/struct.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/timestamp.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/timestamp.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/type.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/type.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/wrappers.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/wrappers.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/rpc/code.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/rpc/code.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/rpc/error_details.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/rpc/error_details.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/rpc/status.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/rpc/status.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/color.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/color.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/date.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/date.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/dayofweek.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/dayofweek.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/latlng.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/latlng.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/money.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/money.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/postal_address.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/postal_address.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/timeofday.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/timeofday.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/ProtoBufInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/protobuf/ProtoBufInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/websocketdemo/server/WebSocketChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/websocketdemo/server/WebSocketChannelInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/MyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/MyRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/MyRequestOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/MyRequestOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/MyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/MyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/MyResponseOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/MyResponseOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StreamRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StreamRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StreamRequestOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StreamRequestOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StreamResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StreamResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StreamResponseOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StreamResponseOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentProto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentRequestOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentRequestOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentResponseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentResponseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentResponseListOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentResponseListOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentResponseOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentResponseOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/main/java/com/thesevensky/proto/StudentServiceGrpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/protobuf/ProtoBufInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/protobuf/ProtoBufInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/websocketdemo/server/WebSocketChannelInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/websocketdemo/server/WebSocketChannelInitializer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,6 +126,36 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty_study" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty_study" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty_study" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty_study" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty_study" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -209,7 +197,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/tutorial" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -219,11 +207,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\ma\netty_study\src\main\java\com\example\tutorial" />
       <recent name="$PROJECT_DIR$/src/main/java/com/thesevensky/proto" />
       <recent name="$PROJECT_DIR$/src/main/java/com" />
       <recent name="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/proto" />
       <recent name="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/thesevensky/netty" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -238,13 +226,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChatClient">
-    <configuration name="ChatClient (1)" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.chatdemo.client.ChatClient" />
+  <component name="RunManager" selected="Application.TestClient">
+    <configuration name="AddPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.tutorial.AddPerson" />
       <module name="netty_study.main" />
+      <option name="PROGRAM_PARAMETERS" value="addressbook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.chatdemo.client.*" />
+          <option name="PATTERN" value="com.example.tutorial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,7 +241,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ChatClient (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.chatdemo.client.ChatClient" />
       <module name="netty_study.main" />
       <extension name="coverage">
@@ -278,12 +267,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeartBeatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.heartbeatdemo.server.HeartBeatServer" />
+    <configuration name="ListPeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.tutorial.ListPeople" />
       <module name="netty_study.main" />
+      <option name="PROGRAM_PARAMETERS" value="addressbook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.heartbeatdemo.server.*" />
+          <option name="PATTERN" value="com.example.tutorial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,12 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.zerocopy.NewIOServer" />
+    <configuration name="ProtoBufServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.protobuf.ProtoBufServer" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.zerocopy.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.protobuf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,12 +294,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OldIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.zerocopy.OldIOClient" />
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.protobuf.TestClient" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.zerocopy.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.protobuf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,35 +307,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.firstdemo.TestServer" />
-      <module name="netty_study.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.firstdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="netty_study [generateProto]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateProto" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.ChatServer" />
-      <item itemvalue="Application.OldIOClient" />
-      <item itemvalue="Application.NewIOServer" />
-      <item itemvalue="Application.ChatClient" />
       <item itemvalue="Application.ChatClient (1)" />
-      <item itemvalue="Application.TestServer" />
-      <item itemvalue="Application.HeartBeatServer" />
+      <item itemvalue="Application.AddPerson" />
+      <item itemvalue="Application.ListPeople" />
+      <item itemvalue="Gradle.netty_study [generateProto]" />
+      <item itemvalue="Application.ProtoBufServer" />
+      <item itemvalue="Application.TestClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChatClient" />
-        <item itemvalue="Application.HeartBeatServer" />
-        <item itemvalue="Application.TestServer" />
-        <item itemvalue="Application.OldIOClient" />
-        <item itemvalue="Application.NewIOServer" />
+        <item itemvalue="Application.TestClient" />
+        <item itemvalue="Application.ProtoBufServer" />
+        <item itemvalue="Application.ListPeople" />
+        <item itemvalue="Application.AddPerson" />
+        <item itemvalue="Gradle.netty_study [generateProto]" />
       </list>
     </recent_temporary>
   </component>
@@ -367,8 +363,16 @@
       <workItem from="1567579510802" duration="14884000" />
       <workItem from="1567754578153" duration="15111000" />
       <workItem from="1567848862249" duration="31289000" />
-      <workItem from="1605946562500" duration="20871000" />
+      <workItem from="1605946562500" duration="41383000" />
     </task>
+    <task id="LOCAL-00001" summary="0.0">
+      <created>1606187829835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606187829835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -393,6 +397,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/protobuf/MyClientHandler.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/protobuf/ProtoBufHandler.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

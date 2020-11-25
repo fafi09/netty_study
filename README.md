@@ -1,4 +1,4 @@
-# 步骤
+# netty步骤
 ## 1.服务端
 - bossgroup,workergroup,绑定端口
 - channelinitializer
@@ -14,3 +14,7 @@
 
 ## 客户端
 - Bootstrap.connect
+
+# protobuf步骤
+- 编写.proto文件
+- gradle task generateProto生成java类
