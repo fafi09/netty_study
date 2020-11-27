@@ -23,3 +23,4 @@
 
 # thrift
 ## 安装
+thrift -r --gen java data.thrift

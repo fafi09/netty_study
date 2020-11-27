@@ -4,7 +4,6 @@
     <list default="true" id="b7253e66-4db4-4516-ac92-85dc4f2209d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/thrift/mycode/ThriftServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/thrift/mycode/ThriftServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -286,7 +285,7 @@
       <workItem from="1567754578153" duration="15111000" />
       <workItem from="1567848862249" duration="31289000" />
       <workItem from="1605946562500" duration="44641000" />
-      <workItem from="1606358526036" duration="6963000" />
+      <workItem from="1606358526036" duration="7673000" />
     </task>
     <task id="LOCAL-00001" summary="0.0">
       <created>1606187829835</created>
@@ -302,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606294506814</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0.2 protobuf2 说明">
+      <created>1606444017327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606444017327</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -333,7 +339,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0.0" />
     <MESSAGE value="0.1 protobuf1" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.1 protobuf1" />
+    <MESSAGE value="0.2 protobuf2 说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.2 protobuf2 说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
