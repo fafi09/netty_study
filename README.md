@@ -18,3 +18,8 @@
 # protobuf步骤
 - 编写.proto文件
 - gradle task generateProto生成java类
+## 解决服务器端与客户端引用相同的包问题
+### git submodule
+
+# thrift
+## 安装

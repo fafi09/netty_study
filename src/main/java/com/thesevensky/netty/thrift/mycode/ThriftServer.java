@@ -15,6 +15,7 @@ public class ThriftServer {
         //socket对象 表示客户端和服务端建立的socket
 
         TNonblockingServerSocket serverSocket = new TNonblockingServerSocket(8899);
+
         THsHaServer.Args arg = new THsHaServer.Args(serverSocket).minWorkerThreads(2).maxWorkerThreads(4);
         PersonService.Processor<PersonServiceImpl> processor =
                 new PersonService.Processor<>(new PersonServiceImpl());
@@ -27,11 +28,13 @@ public class ThriftServer {
         arg.protocolFactory(new TCompactProtocol.Factory());
         //表示的是传输层需要的对象
         //TFileTransport 文件形式进行传输
-        arg.transportFactory(new TFramedTransport.Factory());
+        //传输层比协议更底层
+        arg.transportFactory(new TFramedTransport.Factory()); //切分成一个一个frame
         arg.processorFactory(new TProcessorFactory(processor));
 
-        //HsHa 表示半同步半异步
+        //HsHa 表示半同步半异步 引入线程池读写应用线程池 需使用TFramedTransport
         //TNonblockingServer多线程服务模型 使用非阻塞IO 需使用TFramedTransport
+        //TThreadPoolServer阻塞IO 应用线程池 一个请求来起一个线程
         /**
          * An extension of the TNonblockingServer to a Half-Sync/Half-Async server.
          * Like TNonblockingServer, it relies on the use of TFramedTransport.
