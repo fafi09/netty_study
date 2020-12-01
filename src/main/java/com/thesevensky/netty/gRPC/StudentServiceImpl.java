@@ -10,7 +10,7 @@ public class StudentServiceImpl extends StudentServiceGrpc.StudentServiceImplBas
     @Override
     public void getRealNameByUsername(MyRequest request, StreamObserver<MyResponse> responseObserver) {
         System.out.println("接受到客户端信息: " + request.getUsername());
-        responseObserver.onNext(MyResponse.newBuilder().setRealName("刘亦菲").build());
+        responseObserver.onNext(MyResponse.newBuilder().setRealName("lyf").build());
         responseObserver.onCompleted();
     }
 
@@ -18,13 +18,13 @@ public class StudentServiceImpl extends StudentServiceGrpc.StudentServiceImplBas
     public void getStudentsByAge(StudentRequest request, StreamObserver<StudentResponse> responseObserver) {
         System.out.println("getStudentsByAge call.... " + request.getAge());
 
-        responseObserver.onNext(StudentResponse.newBuilder().setName("刘亦菲")
+        responseObserver.onNext(StudentResponse.newBuilder().setName("lyf")
                 .setAge(18).setCity("杭州").build());
-        responseObserver.onNext(StudentResponse.newBuilder().setName("唐嫣")
+        responseObserver.onNext(StudentResponse.newBuilder().setName("ty")
                 .setAge(18).setCity("北京").build());
-        responseObserver.onNext(StudentResponse.newBuilder().setName("杨颖")
+        responseObserver.onNext(StudentResponse.newBuilder().setName("yy")
                 .setAge(18).setCity("上海").build());
-        responseObserver.onNext(StudentResponse.newBuilder().setName("关羽")
+        responseObserver.onNext(StudentResponse.newBuilder().setName("gy")
                 .setAge(18).setCity("蜀国").build());
         responseObserver.onCompleted();
     }

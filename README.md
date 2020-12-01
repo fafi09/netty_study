@@ -18,9 +18,28 @@
 # protobuf步骤
 - 编写.proto文件
 - gradle task generateProto生成java类
+- https://github.com/grpc/grpc-java
 ## 解决服务器端与客户端引用相同的包问题
 ### git submodule
 
 # thrift
 ## 安装
 thrift -r --gen java data.thrift
+
+# gRpc
+## protobuf文件编写建议使用proto3
+## protoc 编译
+## 实现接口类
+## 编写服务端代码与客户端代码
+
+# gradlew-gradlewraper
+- 使得无gradle环境的本机能够得到构建
+
+# nio
+- put() : 存入数据到缓冲区中
+- get() : 获取缓冲区中的数据
+- flip(); 切换读取数据模式
+- rewind() : 可重复读
+- clear() : 清空缓冲区. 但是缓冲区中的数据依然存在，但是处于“被遗忘”状态
+- mark() : 标记是一个索引，通过 Buffer 中的 mark() 方法  
+指定 Buffer 中一个特定的 position ，之后可以通过调用 reset() 方法恢复到这个 position.

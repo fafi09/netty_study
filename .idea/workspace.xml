@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7253e66-4db4-4516-ac92-85dc4f2209d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/TestNio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/mycode/ThriftServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/mycode/ThriftServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/RPCClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/StudentServiceImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,11 +86,6 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="netty_study" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -98,11 +100,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>realnamebyusername</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -154,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThriftClient">
+  <component name="RunManager" selected="Application.TestNio">
     <configuration name="ChatClient (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.chatdemo.client.ChatClient" />
       <module name="netty_study.main" />
@@ -181,13 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListPeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.tutorial.ListPeople" />
+    <configuration name="RPCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.gRPC.RPCClient" />
       <module name="netty_study.main" />
-      <option name="PROGRAM_PARAMETERS" value="addressbook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.tutorial.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.gRPC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtoBufServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.protobuf.ProtoBufServer" />
+    <configuration name="RPCService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.gRPC.RPCService" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.protobuf.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.gRPC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.protobuf.TestClient" />
+    <configuration name="TestNio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.nio.TestNio" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.protobuf.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,19 +246,19 @@
     <list>
       <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.ChatClient (1)" />
-      <item itemvalue="Application.ListPeople" />
-      <item itemvalue="Application.ProtoBufServer" />
-      <item itemvalue="Application.TestClient" />
       <item itemvalue="Application.ThriftServer" />
       <item itemvalue="Application.ThriftClient" />
+      <item itemvalue="Application.RPCService" />
+      <item itemvalue="Application.RPCClient" />
+      <item itemvalue="Application.TestNio" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestNio" />
+        <item itemvalue="Application.RPCClient" />
+        <item itemvalue="Application.RPCService" />
         <item itemvalue="Application.ThriftClient" />
         <item itemvalue="Application.ThriftServer" />
-        <item itemvalue="Application.TestClient" />
-        <item itemvalue="Application.ProtoBufServer" />
-        <item itemvalue="Application.ListPeople" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +281,7 @@
       <workItem from="1567754578153" duration="15111000" />
       <workItem from="1567848862249" duration="31289000" />
       <workItem from="1605946562500" duration="44641000" />
-      <workItem from="1606358526036" duration="7673000" />
+      <workItem from="1606358526036" duration="35355000" />
     </task>
     <task id="LOCAL-00001" summary="0.0">
       <created>1606187829835</created>
@@ -308,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606444017327</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0.21 protobuf3 说明">
+      <created>1606444680284</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606444680284</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -340,7 +343,8 @@
     <MESSAGE value="0.0" />
     <MESSAGE value="0.1 protobuf1" />
     <MESSAGE value="0.2 protobuf2 说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.2 protobuf2 说明" />
+    <MESSAGE value="0.21 protobuf3 说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.21 protobuf3 说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

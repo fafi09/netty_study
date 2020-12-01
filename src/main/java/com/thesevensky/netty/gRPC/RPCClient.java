@@ -50,6 +50,9 @@ public class RPCClient {
             }
         };
 
+        /**
+         * 流式请求这种情况要用异步
+         */
         StreamObserver<StudentRequest> studentRequestStreamObserver =
                 stub.getStudentsWrapperByAges(studentResponseListStreamObserver);
         studentRequestStreamObserver.onNext(StudentRequest.newBuilder().setAge(20).build());
