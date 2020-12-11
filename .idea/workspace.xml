@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7253e66-4db4-4516-ac92-85dc4f2209d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/TestNio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/RPCClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/gRPC/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/mycode/ThriftServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/thrift/mycode/ThriftServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/RPCClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestNio">
+  <component name="RunManager" selected="Application.HeartBeatServer">
     <configuration name="ChatClient (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.chatdemo.client.ChatClient" />
       <module name="netty_study.main" />
@@ -178,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RPCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.gRPC.RPCClient" />
+    <configuration name="HeartBeatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.heartbeatdemo.server.HeartBeatServer" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.gRPC.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.heartbeatdemo.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RPCService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.gRPC.RPCService" />
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.socketdemo.MyClient" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.gRPC.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.socketdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,8 +200,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.nio.TestNio" />
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.socketdemo.MyServer" />
+      <module name="netty_study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thesevensky.netty.socketdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NioTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.nio.NioTest3" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
@@ -217,25 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThriftClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.thrift.mycode.ThriftClient" />
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.firstdemo.TestServer" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.thrift.mycode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThriftServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.thrift.mycode.ThriftServer" />
-      <module name="netty_study.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.thrift.mycode.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.firstdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,19 +242,19 @@
     <list>
       <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.ChatClient (1)" />
-      <item itemvalue="Application.ThriftServer" />
-      <item itemvalue="Application.ThriftClient" />
-      <item itemvalue="Application.RPCService" />
-      <item itemvalue="Application.RPCClient" />
-      <item itemvalue="Application.TestNio" />
+      <item itemvalue="Application.NioTest3" />
+      <item itemvalue="Application.TestServer" />
+      <item itemvalue="Application.MyServer" />
+      <item itemvalue="Application.MyClient" />
+      <item itemvalue="Application.HeartBeatServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestNio" />
-        <item itemvalue="Application.RPCClient" />
-        <item itemvalue="Application.RPCService" />
-        <item itemvalue="Application.ThriftClient" />
-        <item itemvalue="Application.ThriftServer" />
+        <item itemvalue="Application.HeartBeatServer" />
+        <item itemvalue="Application.MyClient" />
+        <item itemvalue="Application.MyServer" />
+        <item itemvalue="Application.TestServer" />
+        <item itemvalue="Application.NioTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +277,7 @@
       <workItem from="1567754578153" duration="15111000" />
       <workItem from="1567848862249" duration="31289000" />
       <workItem from="1605946562500" duration="44641000" />
-      <workItem from="1606358526036" duration="35355000" />
+      <workItem from="1606358526036" duration="52502000" />
     </task>
     <task id="LOCAL-00001" summary="0.0">
       <created>1606187829835</created>
@@ -311,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606444680284</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0.3 thrift grpc nio">
+      <created>1606812021528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606812021528</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -344,7 +347,8 @@
     <MESSAGE value="0.1 protobuf1" />
     <MESSAGE value="0.2 protobuf2 说明" />
     <MESSAGE value="0.21 protobuf3 说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.21 protobuf3 说明" />
+    <MESSAGE value="0.3 thrift grpc nio" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.3 thrift grpc nio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -359,8 +363,43 @@
           <line>9</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServer.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/chatdemo/server/ChatServer.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/heartbeatdemo/server/HeartBeatServer.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="serverBootstrap.bind(8899)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="masterDetails">
     <states>

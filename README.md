@@ -43,3 +43,7 @@ thrift -r --gen java data.thrift
 - clear() : 清空缓冲区. 但是缓冲区中的数据依然存在，但是处于“被遗忘”状态
 - mark() : 标记是一个索引，通过 Buffer 中的 mark() 方法  
 指定 Buffer 中一个特定的 position ，之后可以通过调用 reset() 方法恢复到这个 position.
+
+
+|io|nio|
+|io|面向快|

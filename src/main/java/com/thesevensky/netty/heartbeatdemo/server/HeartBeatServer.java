@@ -20,6 +20,7 @@ public class HeartBeatServer {
                     .childHandler(new HeartBeatServerInitializer());
             ChannelFuture channelFuture = serverBootstrap.bind(8899).sync();
             channelFuture.channel().closeFuture().sync();
+            System.out.println("completed");
         } finally {
             bossGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();
