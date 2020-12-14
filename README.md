@@ -47,3 +47,19 @@ thrift -r --gen java data.thrift
 
 |io|nio|
 |io|面向快|
+
+## read操作
+向内核发送读取数据请求，
+操作系统从用户模式切换到内核模式，
+dma向磁盘读取数据到内核空间缓冲区。
+从内核空间缓冲区cpy到用户空间缓冲区
+
+## write操作
+向内核发送写数据请求，
+从用户空间缓冲区cpy到内核空间缓冲区
+
+## 0cpy
+sendfile内核请求，在内核空间实现cpy
+将目标写入到socket缓冲区
+内存映射来使用户参与其中
+https://www.cnblogs.com/ronnieyuan/p/12009692.html
