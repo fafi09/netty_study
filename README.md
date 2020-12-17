@@ -12,7 +12,7 @@
 6. 最后从netty的注册中将该channel删除掉channelUnRegistered
 7. handlerRemoved表示连接断开，如果客户端强制断开，服务器感知不到，心跳机制保证 channelGroup.remove会自动调用
 
-## 客户端
+## 2.客户端
 - Bootstrap.connect
 
 # protobuf步骤
@@ -73,12 +73,12 @@ https://www.cnblogs.com/ronnieyuan/p/12009692.html
 
     
 ### serverBootstrap.bind
-### regFuture = initAndRegister()
+#### regFuture = initAndRegister()
 - ChannelFuture regFuture = config().group().register(channel);将serverchannel注册到boss
 - io.netty.channel.nio.AbstractNioChannel.doRegister
 - selectionKey = javaChannel().register(eventLoop().unwrappedSelector(), 0, this);
     将serversocketchannel注册到操作系统所实现的selector上
-### init(channel)
+#### init(channel)
 - 在pipeline添加server端的handler
 - 在pipeline添加ServerBootstrapAcceptor
-### ServerBootstrapAcceptor是一个handler
+#### ServerBootstrapAcceptor是一个handler

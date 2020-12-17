@@ -274,7 +274,7 @@
       <workItem from="1567754578153" duration="15111000" />
       <workItem from="1567848862249" duration="31289000" />
       <workItem from="1605946562500" duration="44641000" />
-      <workItem from="1606358526036" duration="111163000" />
+      <workItem from="1606358526036" duration="111309000" />
     </task>
     <task id="LOCAL-00001" summary="0.0">
       <created>1606187829835</created>
@@ -325,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607935124207</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="0.6 netty源码分析">
+      <created>1608196802130</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608196802130</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -361,7 +368,8 @@
     <MESSAGE value="0.3 thrift grpc nio" />
     <MESSAGE value="0.4 nio" />
     <MESSAGE value="0.5 零拷贝" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.5 零拷贝" />
+    <MESSAGE value="0.6 netty源码分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.6 netty源码分析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
