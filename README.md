@@ -63,3 +63,22 @@ sendfile内核请求，在内核空间实现cpy
 将目标写入到socket缓冲区
 内存映射来使用户参与其中
 https://www.cnblogs.com/ronnieyuan/p/12009692.html
+
+## server启动流程
+### serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class)
+                        .handler(new LoggingHandler(LogLevel.INFO))
+                        .childHandler(new HeartBeatServerInitializer());
+- NioServerSocketChannel通过调用无参的构造方法由ReflectiveChannelFactory反射生成
+- NioServerSocketChannel生成时,super(null, channel, SelectionKey.OP_ACCEPT);将OP_ACCEPT保存到此实例
+
+    
+### serverBootstrap.bind
+### regFuture = initAndRegister()
+- ChannelFuture regFuture = config().group().register(channel);将serverchannel注册到boss
+- io.netty.channel.nio.AbstractNioChannel.doRegister
+- selectionKey = javaChannel().register(eventLoop().unwrappedSelector(), 0, this);
+    将serversocketchannel注册到操作系统所实现的selector上
+### init(channel)
+- 在pipeline添加server端的handler
+- 在pipeline添加ServerBootstrapAcceptor
+### ServerBootstrapAcceptor是一个handler
