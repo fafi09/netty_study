@@ -64,12 +64,16 @@ sendfile内核请求，在内核空间实现cpy
 内存映射来使用户参与其中
 https://www.cnblogs.com/ronnieyuan/p/12009692.html
 
-## server启动流程
+## 
+
+## nettyserver启动流程
 ### serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class)
                         .handler(new LoggingHandler(LogLevel.INFO))
                         .childHandler(new HeartBeatServerInitializer());
 - NioServerSocketChannel通过调用无参的构造方法由ReflectiveChannelFactory反射生成
 - NioServerSocketChannel生成时,super(null, channel, SelectionKey.OP_ACCEPT);将OP_ACCEPT保存到此实例
+- config = new NioServerSocketChannelConfig(this, javaChannel().socket());在DefaultChannelConfig中生成
+可伸缩的bytebuf
 
     
 ### serverBootstrap.bind
@@ -81,4 +85,70 @@ https://www.cnblogs.com/ronnieyuan/p/12009692.html
 #### init(channel)
 - 在pipeline添加server端的handler
 - 在pipeline添加ServerBootstrapAcceptor
-#### ServerBootstrapAcceptor是一个handler
+
+## nettyserver接收客户端
+### ServerBootstrapAcceptor是一个handler
+- 在channelRead中取得客户端socketchannel并在此channel的pipeline中追加work线程组的handler(initializerhandler)  
+- childGroup.register(child)将workergroup与客户端socketchannel关联，并追加ChannelFutureListener  
+如果完成不成功就强制关闭
+### read-->NioEventLoop.processSelectedKey->unsafe.read(); 
+如果存在感兴趣的事件就开始对应操作(这里的读与accept是同一个逻辑)
+### unsafe.read(); ->doReadMessages(readBuf);(通过SocketUtils.accept(javaChannel())方法得到客户端socketchannel)
+### 读到socketchannel封装成niosocketchannel然后pipeline.fireChannelRead(readBuf.get(i));触发channelread到  
+serverBootstrap(ServerBootstrapAcceptor)的channelRead方法中
+### ServerBootstrapAcceptor中childGroup.register(child)(在客户端多线程组中开启异步注册任务),  
+pipeline.fireChannelActive()->defaultchannelpipeline.readIfIsAutoRead()->
+AbstractChannel.doBeginRead
+### AbstractNioChannel.doBeginRead->readInterestOp是1 将读事件注册到key
+        if ((interestOps & readInterestOp) == 0) {
+            selectionKey.interestOps(interestOps | readInterestOp);
+        }
+
+-----
+## 调用栈
+### IdleStateHandler.userEventTriggered
+>userEventTriggered:11, HeartBeatServerHandler (com.thesevensky.netty.heartbeatdemo.server)
+ invokeUserEventTriggered:329, AbstractChannelHandlerContext (io.netty.channel)
+ invokeUserEventTriggered:315, AbstractChannelHandlerContext (io.netty.channel)
+ fireUserEventTriggered:307, AbstractChannelHandlerContext (io.netty.channel)
+ channelIdle:374, IdleStateHandler (io.netty.handler.timeout)
+ run:497, IdleStateHandler$ReaderIdleTimeoutTask (io.netty.handler.timeout)
+ run:469, IdleStateHandler$AbstractIdleTask (io.netty.handler.timeout)
+ call:38, PromiseTask$RunnableAdapter (io.netty.util.concurrent)
+ run:120, ScheduledFutureTask (io.netty.util.concurrent)
+ safeExecute$$$capture:163, AbstractEventExecutor (io.netty.util.concurrent)
+ safeExecute:-1, AbstractEventExecutor (io.netty.util.concurrent)
+ runAllTasks:403, SingleThreadEventExecutor (io.netty.util.concurrent)
+ run:462, NioEventLoop (io.netty.channel.nio)
+ run:858, SingleThreadEventExecutor$5 (io.netty.util.concurrent)
+ run:144, DefaultThreadFactory$DefaultRunnableDecorator (io.netty.util.concurrent)
+ run:745, Thread (java.lang)
+
+### channelRead
+> channelRead0:12, MyServerHandler (com.thesevensky.netty.socketdemo)
+  channelRead0:8, MyServerHandler (com.thesevensky.netty.socketdemo)
+  channelRead:105, SimpleChannelInboundHandler (io.netty.channel)
+  invokeChannelRead:362, AbstractChannelHandlerContext (io.netty.channel)
+  invokeChannelRead:348, AbstractChannelHandlerContext (io.netty.channel)
+  fireChannelRead:340, AbstractChannelHandlerContext (io.netty.channel)
+  channelRead:102, MessageToMessageDecoder (io.netty.handler.codec)
+  invokeChannelRead:362, AbstractChannelHandlerContext (io.netty.channel)
+  invokeChannelRead:348, AbstractChannelHandlerContext (io.netty.channel)
+  fireChannelRead:340, AbstractChannelHandlerContext (io.netty.channel)
+  fireChannelRead:293, ByteToMessageDecoder (io.netty.handler.codec)
+  channelRead:267, ByteToMessageDecoder (io.netty.handler.codec)
+  invokeChannelRead:362, AbstractChannelHandlerContext (io.netty.channel)
+  invokeChannelRead:348, AbstractChannelHandlerContext (io.netty.channel)
+  fireChannelRead:340, AbstractChannelHandlerContext (io.netty.channel)
+  channelRead:1334, DefaultChannelPipeline$HeadContext (io.netty.channel)
+  invokeChannelRead:362, AbstractChannelHandlerContext (io.netty.channel)
+  invokeChannelRead:348, AbstractChannelHandlerContext (io.netty.channel)
+  fireChannelRead:926, DefaultChannelPipeline (io.netty.channel)
+  read:134, AbstractNioByteChannel$NioByteUnsafe (io.netty.channel.nio)
+  processSelectedKey:644, NioEventLoop (io.netty.channel.nio)
+  processSelectedKeysOptimized:579, NioEventLoop (io.netty.channel.nio)
+  processSelectedKeys:496, NioEventLoop (io.netty.channel.nio)
+  run:458, NioEventLoop (io.netty.channel.nio)
+  run:858, SingleThreadEventExecutor$5 (io.netty.util.concurrent)
+  run:144, DefaultThreadFactory$DefaultRunnableDecorator (io.netty.util.concurrent)
+  run:745, Thread (java.lang)
