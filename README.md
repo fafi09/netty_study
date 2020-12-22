@@ -152,3 +152,26 @@ AbstractChannel.doBeginRead
   run:858, SingleThreadEventExecutor$5 (io.netty.util.concurrent)
   run:144, DefaultThreadFactory$DefaultRunnableDecorator (io.netty.util.concurrent)
   run:745, Thread (java.lang)
+
+## reactor5组件
+### handle
+- 句柄(描述符)根据操作系统不同而不同，表示一种资源，表示一个一个事件，既可以来自内部，也可以来自外部。
+内部指定时器事件，外部指socket事件等，handle是产生事件的地方，监听事件就是监听handle
+### Initiation Dispatcher初始分发器
+- 实际就是reactor角色，本身提供规范，规范用于控制事件调度方式，事件本身有select方法产生。  
+一旦事件发生首先会分离出每个事件然后调用事件处理器，最后调用相关的回调方法来处理事件。
+### syn event demultiplexer (selector)
+- 同步事件分离器，本身是系统调用用于等待系统发生，调用时会被阻塞，，一直阻塞到事件分离器有事件产生为止  
+对于linux就是IO多路复用器，select，poll，epoll等
+### event handler
+- 本身有多个回调方法构成，对应某个事件的反馈机制，netty提供了SimpleChannelInboundHandler等
+### concrete event handler
+- 事件处理器的实现.实现事件处理器的各个回调方法，实现处理逻辑(由workergroup调用)
+### 流程
+1. 当应用向Initiation Dispatcher注册具体事件处理器，应用会标识出该事件处理器希望在某个事件发生时  
+向其通知的事件，该事件与handle关联，
+2. Initiation Dispatcher会要求每个处理器向其传递内部handle，  
+handle向操作系统标识了事件处理器
+3. 当所有事件处理器调用完毕，应用调用handleevent方法启动循环。Initiation Dispatcher将每个handler合并  
+并使用同步时间分离器来等待这些事件的发生。当与某个事件源对应的handle变为ready状态。同步事件分离器将通知Initiation Dispatcher  
+Initiation Dispatcher会触发事件处理器的回调方法。将handle作为key得到事件处理器。

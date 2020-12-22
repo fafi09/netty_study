@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7253e66-4db4-4516-ac92-85dc4f2209d5" name="Default Changelist" comment="0.61 netty源码分析">
+    <list default="true" id="b7253e66-4db4-4516-ac92-85dc4f2209d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -275,7 +275,7 @@
       <workItem from="1567848862249" duration="31289000" />
       <workItem from="1605946562500" duration="44641000" />
       <workItem from="1606358526036" duration="124556000" />
-      <workItem from="1608516629073" duration="1343000" />
+      <workItem from="1608516629073" duration="8461000" />
     </task>
     <task id="LOCAL-00001" summary="0.0">
       <created>1606187829835</created>
@@ -340,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608197017214</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="0.62 netty源码分析">
+      <created>1608518847615</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608518847615</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -378,7 +385,8 @@
     <MESSAGE value="0.5 零拷贝" />
     <MESSAGE value="0.6 netty源码分析" />
     <MESSAGE value="0.61 netty源码分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.61 netty源码分析" />
+    <MESSAGE value="0.62 netty源码分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.62 netty源码分析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
