@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7253e66-4db4-4516-ac92-85dc4f2209d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -289,7 +289,7 @@
       <workItem from="1567848862249" duration="31289000" />
       <workItem from="1605946562500" duration="44641000" />
       <workItem from="1606358526036" duration="124556000" />
-      <workItem from="1608516629073" duration="34722000" />
+      <workItem from="1608516629073" duration="35696000" />
     </task>
     <task id="LOCAL-00001" summary="0.0">
       <created>1606187829835</created>
@@ -368,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608606975170</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0.64 netty源码分析">
+      <created>1608712138217</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608712138217</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -408,7 +415,8 @@
     <MESSAGE value="0.61 netty源码分析" />
     <MESSAGE value="0.62 netty源码分析" />
     <MESSAGE value="0.63 netty源码分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.63 netty源码分析" />
+    <MESSAGE value="0.64 netty源码分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.64 netty源码分析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -425,7 +433,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/thesevensky/netty/firstdemo/TestServer.java</url>
-          <line>28</line>
+          <line>29</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

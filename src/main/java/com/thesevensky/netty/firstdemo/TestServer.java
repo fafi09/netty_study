@@ -24,10 +24,12 @@ public class TestServer {
             serverBootstrap.group(boosGroup, workerGroup).channel(NioServerSocketChannel.class)
                     .childHandler(new TestServerInitializer()); //childHandler->worker handler->boss
 
-            //sync表示netty一直等待
+            //sync表示netty一直等待 直到任务完成
             ChannelFuture channelFuture = serverBootstrap.bind(8899).sync();
+            //如果关闭，要等关闭任务完成才能向下执行 一般程序会停留在这里
             channelFuture.channel().closeFuture().sync();
         } finally {
+            //优雅关闭
             boosGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();
         }
