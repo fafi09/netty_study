@@ -175,3 +175,26 @@ handle向操作系统标识了事件处理器
 3. 当所有事件处理器调用完毕，应用调用handleevent方法启动循环。Initiation Dispatcher将每个handler合并  
 并使用同步时间分离器来等待这些事件的发生。当与某个事件源对应的handle变为ready状态。同步事件分离器将通知Initiation Dispatcher  
 Initiation Dispatcher会触发事件处理器的回调方法。将handle作为key得到事件处理器。
+### channeloption常量类TCP配置 channelconfig constantpool常量池 attributeMap  
+attrbuteKey维护业务数据，后期可取出
+### attr作用域
+### channelcontext是channelhandler与channelpipeline,channel的桥梁  
+一个handler一个context，如果同一个handler添加多次会有不同的context对应。
+pipeline是context的链表
+channelpipeline存放channelhandlercontext，context存放channelhandler
+### 当channelinitializer的initialchannel方法返回是这个initializer将被从channelpipe中移除
+
+### channel attr在整个作用域中都有效 context attr只在当前上下文中有效
+4.0版本channel.attr==channelhandlercontext.attr 被所有的handler共享
+
+### NioEventLoopGroup extends MultithreadEventLoopGroup
+### NioEventLoop extends SingleThreadEventLoop
+
+### newUnsafe->NioMessageUnsafe 
+
+### eventLoop.inEventLoop()判断 防止多线程并发执行register0
+- eventLoopGroup中包含一个或多个eventLoop
+- eventLoop在他的整个生命周期中只有一个thread绑定
+- 所有由eventloop所处理的各种io事件都将在他所关联的thread上进行处理
+- 一个channel在他的整个生命周期中只会注册在一个eventLoop上
+- 一个eventLoop在运行过程中，会被分配给一个或多个channel

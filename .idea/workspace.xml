@@ -16,6 +16,20 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
@@ -275,7 +289,7 @@
       <workItem from="1567848862249" duration="31289000" />
       <workItem from="1605946562500" duration="44641000" />
       <workItem from="1606358526036" duration="124556000" />
-      <workItem from="1608516629073" duration="8461000" />
+      <workItem from="1608516629073" duration="34722000" />
     </task>
     <task id="LOCAL-00001" summary="0.0">
       <created>1606187829835</created>
@@ -347,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608518847615</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="0.63 netty源码分析">
+      <created>1608606975170</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608606975170</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -386,7 +407,8 @@
     <MESSAGE value="0.6 netty源码分析" />
     <MESSAGE value="0.61 netty源码分析" />
     <MESSAGE value="0.62 netty源码分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.62 netty源码分析" />
+    <MESSAGE value="0.63 netty源码分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.63 netty源码分析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,6 +542,11 @@
           <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java</url>
           <line>600</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
