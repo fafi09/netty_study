@@ -198,3 +198,12 @@ channelpipeline存放channelhandlercontext，context存放channelhandler
 - 所有由eventloop所处理的各种io事件都将在他所关联的thread上进行处理
 - 一个channel在他的整个生命周期中只会注册在一个eventLoop上
 - 一个eventLoop在运行过程中，会被分配给一个或多个channel
+- 所有属于同一个channel的操作的提交任务顺序与执行顺序一样
+- netty中channel是线程安全的，可以存储channel引用，调用响应write，read方法。
+即便当时有很多线程都使用他，也不会出现多线程问题，而且消息一定会按顺序发送出去
+- 业务开发不要讲长时间任务放入到eventloop队列，会阻塞该线程所有channel任务
+eventExecutor
+ 1. 在channelhandler回掉方法启动自己线程池
+ 2. netty提供channelpipeline添加channelhandler是调用addlast方法来传递eventExecutor默认情况下channelhandler的  
+回调方法都是由io线程执行，如果调用了这个方法addLast(EventExecutorGroup group, String name, ChannelHandler handler)
+就是由group执行
