@@ -64,7 +64,7 @@ sendfile内核请求，在内核空间实现cpy
 内存映射来使用户参与其中
 https://www.cnblogs.com/ronnieyuan/p/12009692.html
 
-## 
+# netty分析
 
 ## nettyserver启动流程
 ### serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class)
@@ -207,3 +207,63 @@ eventExecutor
  2. netty提供channelpipeline添加channelhandler是调用addlast方法来传递eventExecutor默认情况下channelhandler的  
 回调方法都是由io线程执行，如果调用了这个方法addLast(EventExecutorGroup group, String name, ChannelHandler handler)
 就是由group执行
+### Future
+> 1. 各状态参见ChannelFuture类注释
+> 2. jdk future 取结果手工检查会阻塞，netty future以回调方式来获取执行结果  
+>channelfuturelistener 的 complete方法是有io线程执行，不要执行耗时操作，否则则需要在另外的线程执行
+> 3. future怎么知道操作完成。（promise可写只能写一次
+> 4. SimpleChannelInboundHandler类注释，当中有读完read后ReferenceCountUtil.release(msg);不应保存msg否则失效。  
+>引用计数release
+> 5. channelRead异步读取可能会引起release先释放资源了。所以这时不能继承SimpleChannelInboundHandler
+
+### handler
+#### ctx.writeAndFlush与ctx.channel.writeAndFlush区别。
+> - ctx.channel.writeAndFlush从channel的最后一个处理器通过出站handler逐个向前到达目标
+> ctx.writeAndFlush当前所调用的handler的下一个handler开始传输到目标
+> - 结论：ctx与handler关联关系是不变的，将其缓存无问题。对于同名方法，ctx具有较短的事件流
+
+#### 关系
+>                     group
+>                     /   \
+>                    loop  loop
+>                   /  \    /  \
+>             channel  c     c   channel
+>
+## nio ByteBuffer回顾
+### channel
+- 可以向其写入数据和读取数据的对象，都是通过buffer进行的。与stream比较channnel是双向的。
+### nio文件读取步骤
+> 1. 从fileinputstream获取channel对象
+> 2. 创建buffer
+> 3. 将从channel读取到buffer
+>> a. 0 < mark < positon < limit < capacity  
+>> b. flip() 将position=0, limit = position  
+>> c. clear() 将limit=capacity 将position=0
+>> d. compact()
+>>> 将所有未读数据复制到buffer起始位置，  
+>>> 将position=最后一个未读元素后面，  
+>>> 将limit=capacity
+>>> 将mark=-1丢弃
+### directbuffer
+- 本身在堆内，但数据在Java内存外，形成zerocpy
+## ByteBuf
+
+
+
+# 中继服务
+## 服务向另外一个服务发请求应该在一个eventloop内 ？
+    //server
+    channelActive() {
+        //client
+        Bootstrap bootstrap = new Bootstrap();
+                    bootstrap.group(eventLoopGroup).channel(NioSocketChannel.class)
+                            .handler(
+                            // 两个channel公用一个loop
+                            bootstrap.group(ctx.channel().eventloop());
+                            bootstrap.connect();
+                            
+                            );
+        
+    }
+    
+  
