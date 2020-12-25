@@ -246,10 +246,24 @@ eventExecutor
 >>> 将mark=-1丢弃
 ### directbuffer
 - 本身在堆内，但数据在Java内存外，形成zerocpy
-## ByteBuf
-
-
-
+## ByteBuf 类注释 三类堆内，堆外，composite
+### writeindex readindex readablebytes
+### jvm buf heapbuf
+- 存入array jvm堆中，可以快速创建和释放，提供访问内部数组方法 
+- 缺点：每次读写都需要copy到直接缓冲区进行网络传输
+### directbuf 在堆外分配，由操作系统在本地内进行分配
+- 优点：使用socket传递时，性能好。不需要jvm复制到直接缓冲区
+- 缺点：directbuf在os内存中，内存的分配释放要比堆复杂。速度慢，netty通过内存池解决此问题。  
+直接缓冲区不能通过数组方式访问数据。
+### compositeBuf复合缓冲，容纳其他buf。
+## jdk buf 与netyy buf
+### netty采用writeindex readindex
+### 读写索引超出就会抛异常
+### 位于buf任何读写操作都会单独维护读索引写索引。maxcapacity默认为integer.max
+### netty buf满了会自动扩容？
+### jdk buf 底层final byte[] hb;使用前需要估计容量，扩容需要自己手动实现。创建全新的bytebuf对象然后将数据cpy过来。
+### position一个变量来标识信息，读写需要调用flip来切换
+### netty buf 不足会自动扩容， 读写是分开的。
 # 中继服务
 ## 服务向另外一个服务发请求应该在一个eventloop内 ？
     //server

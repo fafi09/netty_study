@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7253e66-4db4-4516-ac92-85dc4f2209d5" name="Default Changelist" comment="0.66 netty源码分析">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NettyBuf.java" afterDir="false" />
+    <list default="true" id="b7253e66-4db4-4516-ac92-85dc4f2209d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/firstdemo/TestServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NettyBuf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NettyBuf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NettyBuf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NettyBuf.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -291,7 +291,7 @@
       <workItem from="1567848862249" duration="31289000" />
       <workItem from="1605946562500" duration="44641000" />
       <workItem from="1606358526036" duration="124556000" />
-      <workItem from="1608516629073" duration="52473000" />
+      <workItem from="1608516629073" duration="63979000" />
     </task>
     <task id="LOCAL-00001" summary="0.0">
       <created>1606187829835</created>
@@ -391,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608714971411</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="0.67 netty源码分析">
+      <created>1608799262956</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608799262956</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +432,8 @@
     <MESSAGE value="0.64 netty源码分析" />
     <MESSAGE value="0.65 netty源码分析" />
     <MESSAGE value="0.66 netty源码分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.66 netty源码分析" />
+    <MESSAGE value="0.67 netty源码分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.67 netty源码分析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -564,6 +572,11 @@
           <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
           <line>79</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/buffer/ByteBufUtil.java</url>
+          <line>580</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
