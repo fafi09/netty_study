@@ -6,11 +6,14 @@ import io.netty.buffer.Unpooled;
 
 import java.nio.charset.Charset;
 import java.util.Iterator;
+import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
 public class NettyBuf {
     public static void main(String[] args) {
         //two();
-        three();
+        //three();
+        //four();
+        five();
     }
 
     public static void one() {
@@ -63,5 +66,40 @@ public class NettyBuf {
             System.out.println(iter.next());
         }
         compositebuf.forEach(System.out::println);
+    }
+
+    public static void four() {
+        Person p = new Person();
+        for(int i = 0; i < 10; i++) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        Thread.sleep(20);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println(p.age++);
+                }
+            }).start();
+        }
+    }
+
+    public static void five() {
+        Person person = new Person();
+        AtomicIntegerFieldUpdater<Person> p = AtomicIntegerFieldUpdater.newUpdater(Person.class,"age");
+        for(int i = 0; i < 10; i++) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        Thread.sleep(20);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println(p.getAndIncrement(person));
+                }
+            }).start();
+        }
     }
 }

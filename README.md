@@ -264,6 +264,12 @@ eventExecutor
 ### jdk buf 底层final byte[] hb;使用前需要估计容量，扩容需要自己手动实现。创建全新的bytebuf对象然后将数据cpy过来。
 ### position一个变量来标识信息，读写需要调用flip来切换
 ### netty buf 不足会自动扩容， 读写是分开的。
+## ReferenceCounted引用计数 AbstractReferenceCountedByteBuf
+### retain0采用cas AtomicIntegerFieldUpdater  为什么不用AtomicInteger
+#### AtomicIntegerFieldUpdater
+- 必须是int类型 如果包装类型AtomicReferenceFieldUpdater
+- 必须violatile
+- 变量必须是实例变量
 # 中继服务
 ## 服务向另外一个服务发请求应该在一个eventloop内 ？
     //server
