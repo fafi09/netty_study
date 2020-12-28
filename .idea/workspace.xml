@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7253e66-4db4-4516-ac92-85dc4f2209d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NettyBuf$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NettyBuf$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/codec/client/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/codec/client/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/codec/client/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/codec/decode/MyByteToLongDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/codec/decode/MyByteToLongDecoder2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/codec/decode/MyLongToStringDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/codec/encode/MyLongToByteEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/codec/server/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/codec/server/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/codec/server/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nian/client/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nian/client/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nian/client/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nian/client/MyClientPersonHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nian/codec/MyPersonDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nian/codec/MyPersonEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nian/protocol/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nian/server/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nian/server/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nian/server/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nian/server/MyServerPersonHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NettyBuf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/thesevensky/netty/nio/NettyBuf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NettyBuf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nio/NettyBuf.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +154,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/nian" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -142,11 +164,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\ma\netty_study\src\main\java\com\example\tutorial" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/thesevensky/proto" />
-      <recent name="$PROJECT_DIR$/src/main/java/com" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC/proto" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/thesevensky/netty/gRPC" />
+      <recent name="H:\ma\netty_study\src\main\java\com\thesevensky\netty\nian" />
+      <recent name="H:\ma\netty_study\src\main\java\com\thesevensky\netty" />
+      <recent name="H:\ma\netty_study\src\main\java\com\thesevensky\netty\codec\server" />
+      <recent name="H:\ma\netty_study\src\main\java\com\thesevensky\netty\codec\client" />
+      <recent name="H:\ma\netty_study\src\main\java\com\thesevensky\netty\chatdemo\client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -161,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NettyBuf">
+  <component name="RunManager" selected="Application.MyClient (2)">
     <configuration name="ChatClient (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.chatdemo.client.ChatClient" />
       <module name="netty_study.main" />
@@ -188,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeartBeatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.heartbeatdemo.server.HeartBeatServer" />
+    <configuration name="MyClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.codec.client.MyClient" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.heartbeatdemo.server.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.codec.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.socketdemo.MyClient" />
+    <configuration name="MyClient (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.nian.client.MyClient" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.socketdemo.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.nian.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,12 +236,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.socketdemo.MyServer" />
+    <configuration name="MyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.codec.server.MyServer" />
       <module name="netty_study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.socketdemo.*" />
+          <option name="PATTERN" value="com.thesevensky.netty.codec.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.nian.server.MyServer" />
+      <module name="netty_study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thesevensky.netty.nian.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,35 +275,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thesevensky.netty.firstdemo.TestServer" />
-      <module name="netty_study.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thesevensky.netty.firstdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.ChatClient (1)" />
-      <item itemvalue="Application.TestServer" />
-      <item itemvalue="Application.MyServer" />
-      <item itemvalue="Application.MyClient" />
-      <item itemvalue="Application.HeartBeatServer" />
       <item itemvalue="Application.NettyBuf" />
+      <item itemvalue="Application.MyServer (1)" />
+      <item itemvalue="Application.MyClient (1)" />
+      <item itemvalue="Application.MyServer (2)" />
+      <item itemvalue="Application.MyClient (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyClient (2)" />
+        <item itemvalue="Application.MyServer (2)" />
+        <item itemvalue="Application.MyClient (1)" />
+        <item itemvalue="Application.MyServer (1)" />
         <item itemvalue="Application.NettyBuf" />
-        <item itemvalue="Application.MyClient" />
-        <item itemvalue="Application.MyServer" />
-        <item itemvalue="Application.HeartBeatServer" />
-        <item itemvalue="Application.TestServer" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +314,7 @@
       <workItem from="1567848862249" duration="31289000" />
       <workItem from="1605946562500" duration="44641000" />
       <workItem from="1606358526036" duration="124556000" />
-      <workItem from="1608516629073" duration="69049000" />
+      <workItem from="1608516629073" duration="90370000" />
     </task>
     <task id="LOCAL-00001" summary="0.0">
       <created>1606187829835</created>
@@ -406,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608878304873</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="0.69 netty源码分析">
+      <created>1608883960335</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608883960335</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +471,8 @@
     <MESSAGE value="0.66 netty源码分析" />
     <MESSAGE value="0.67 netty源码分析" />
     <MESSAGE value="0.68 netty源码分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.68 netty源码分析" />
+    <MESSAGE value="0.69 netty源码分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.69 netty源码分析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -587,6 +617,11 @@
           <line>580</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/handler/codec/MessageToByteEncoder.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -599,6 +634,7 @@
         <watch expression="serverSocketChannel" />
         <watch expression="javaChannel()" />
         <watch expression="eventLoop().unwrappedSelector()" />
+        <watch expression="acceptOutboundMessage(msg)" />
       </configuration>
     </watches-manager>
   </component>

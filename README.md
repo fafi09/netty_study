@@ -270,6 +270,24 @@ eventExecutor
 - 必须是int类型 如果包装类型AtomicReferenceFieldUpdater
 - 必须violatile
 - 变量必须是实例变量
+## netty处理器种类：入栈  出栈
+### 入栈 ChannelInboundHandler
+### 出栈 ChannelOutboundHandler
+### 编解码器
+- 数据原本形式->字节流 编码 出栈处理器
+- 将字节->另外格式 解码 入栈处理器
+- 如果前一个处理器出来的数据与后一个处理器处理类型不同，则会跳出
+#### 结论
+- 无论编解码器接收的消息类型必须与参数类型一致，否则会执行下一个处理器
+- 一定要判断缓冲是否够字节数，如long型if(in.readableBytes() >= 8)
+#### ReplayingDecoder header content 类型消息
+#### MessageToMessageDecoder 一种类型转换成另一种类型
+#### LineBasedFrameDecoder基于行的
+#### FixedLengthFrameDecoder根据固定长度分割
+#### DelimiterBasedFrameDecoder分割符
+#### LengthFieldBasedFrameDecoder基于长度字段
+### tcp粘包拆包
+
 # 中继服务
 ## 服务向另外一个服务发请求应该在一个eventloop内 ？
     //server
